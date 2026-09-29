@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reelvion — Watch Latest Movies Online Free</title>
+<meta name="description" content="Reelvion — stream and browse the latest movies in HD and 4K. A premium dark cinema experience.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">
+      <span class="logo-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+      <span>REEL<span class="accent">VION</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="index.html#latest">Movies</a>
+      <a href="category.html">Categories</a>
+      <a href="index.html#top-rated">Top Rated</a>
+      <a href="index.html#footer">Contact</a>
+    </nav>
+    <div class="nav-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="search-input" type="text" placeholder="Search movies…" autocomplete="off">
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+
+<!-- ================= HERO SLIDER ================= -->
+<section class="hero" id="hero"></section>
+
+<!-- ================= TOP BILLBOARD AD SLOT ================= -->
+<div class="container">
+  <div class="ad-slot" id="top-billboard" style="min-height:110px"></div>
+</div>
+
+<!-- ================= LATEST MOVIES + CATEGORY FILTER ================= -->
+<section class="section container" id="latest">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Fresh Releases</div>
+      <h2>Latest Movies</h2>
+    </div>
+    <span class="count" id="grid-count"></span>
+  </div>
+
+  <div class="chip-bar" id="chip-bar"></div>
+  <div class="movie-grid" id="movie-grid"></div>
+</section>
+
+<!-- ================= MID-PAGE AD SLOT ================= -->
+<div class="container">
+  <div class="ad-slot" id="mid-billboard" style="min-height:110px"></div>
+</div>
+
+<!-- ================= TOP RATED ================= -->
+<section class="section container" id="top-rated">
+  <div class="section-head">
+    <div>
+      <div class="kicker">All-Time Greats</div>
+      <h2>Top Rated</h2>
+    </div>
+    <a class="view-all" href="category.html?cat=All">View all &rarr;</a>
+  </div>
+  <div class="toprated-scroll" id="toprated-row"></div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer" id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <span class="logo-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <span>REEL<span class="accent">VION</span></span>
+        </a>
+        <p>Your premium destination for the latest movies in stunning quality — browsed the way a cinema night should feel.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#latest">Latest Movies</a></li>
+          <li><a href="index.html#top-rated">Top Rated</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul id="footer-cats"></ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#footer">DMCA</a></li>
+          <li><a href="#footer">Privacy Policy</a></li>
+          <li><a href="#footer">Terms of Service</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-disclaimer">
+      Reelvion is a template website for demonstration purposes only. All movie titles, artwork and metadata belong to their respective owners and are sourced from The Movie Database (TMDB).
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Reelvion. All rights reserved.</span>
+      <span>Made for movie lovers</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Social bar mounts here (injected by ads-config.js) -->
+<div id="social-bar-slot"></div>
+
+<button class="to-top" id="to-top" aria-label="Back to top">&uarr;</button>
+
+<script src="js/ads-config.js"></script>
+<script src="js/movies-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
