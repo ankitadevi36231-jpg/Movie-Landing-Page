@@ -14,21 +14,21 @@ const ADS_CONFIG = {
      Paste the FULL script snippet your ad network gives you, e.g.:
      '<script type="application/javascript" src="https://.../script.js" data-zone="XXXXXXX" async data-cfasync="false"></script>'
      Leave as "" to disable. Injected once per browser session. */
-  POPUNDER_CODE: "",
+  POPUNDER_CODE: "<script src="https://pl31576280.profitableratecpmnetwork.com/1f/ac/d1/1facd1986abb81d27eceeb97ca4c2f1b.js"></script>",
 
   /* 2) SOCIAL BAR ----------------------------------------------
      Paste the social bar snippet, e.g.:
      '<script src="https://.../social-bar.js" data-zone="XXXXXXX" async></script>'
      It mounts into the #social-bar-slot container on every page.
      Leave as "" to disable. */
-  SOCIAL_BAR_CODE: "",
+  SOCIAL_BAR_CODE: "<script src="https://pl31576281.profitableratecpmnetwork.com/90/40/75/904075eec7c64cfe49aa1fc7aa32eb20.js"></script>",
 
   /* 3) DIRECT LINK ---------------------------------------------
      The monetized URL users visit once before entering a movie
      page, e.g.:
      'https://your-network.com/click?zone=XXXXXXX&campaign=...'
      Leave as "" to skip the click-gate entirely (dev mode). */
-  DIRECT_LINK_URL: "",
+  DIRECT_LINK_URL: "https://www.profitableratecpmnetwork.com/quh40v0r6s?key=41688e0035a87ee27ba805a7316d3cb7",
 
   /* Click-gate behaviour */
   GATE: {
